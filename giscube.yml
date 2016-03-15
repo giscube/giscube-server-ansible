@@ -1,0 +1,17 @@
+---
+- hosts: all
+  become: yes
+  remote_user: ubuntu
+  gather_facts: True
+
+  vars:
+    - apt_update_cache: yes
+    - apt_cache_valid_time: 86400
+    - php_env_install: yes
+    - monit_web_enabled: yes
+    - munin_install: yes
+    - giscube_apps_server_install_examples: yes
+
+  roles:
+    - giscube-base-server
+    - giscube-applications-server

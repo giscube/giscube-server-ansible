@@ -1,0 +1,7 @@
+- src: https://github.com/giscube/giscube-base-server-ansible.git
+  version: master
+  name: giscube-base-server
+
+- src: https://github.com/giscube/giscube-applications-server-ansible.git
+  version: master
+  name: giscube-applications-server
