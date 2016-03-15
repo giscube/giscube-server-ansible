@@ -5,3 +5,7 @@
 - src: https://github.com/giscube/giscube-applications-server-ansible.git
   version: master
   name: giscube-applications-server
+
+- src: https://github.com/giscube/giscube-database-server-ansible.git
+  version: master
+  name: giscube-database-server
