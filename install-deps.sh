@@ -4,6 +4,8 @@
 export LANG=C
 export LC_ALL=POSIX
 
+echo "- Update apt cache"
+apt-get update
 echo "- Install apt requirements"
 apt-get install -y -q aptitude
 echo "- Install python-pip"
