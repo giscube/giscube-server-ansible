@@ -1,4 +1,9 @@
 #! /bin/sh
+
+# make sure we have a valid locale
+export LANG=C
+export LC_ALL=POSIX
+
 echo "- Install apt requirements"
 apt-get install -q aptitude
 echo "- Install python-pip"
