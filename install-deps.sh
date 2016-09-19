@@ -5,7 +5,7 @@ export LANG=C
 export LC_ALL=POSIX
 
 echo "- Install apt requirements"
-apt-get install -q aptitude
+apt-get install -y -q aptitude
 echo "- Install python-pip"
 apt-get install -q -y python-pip python-dev libffi-dev libssl-dev
 echo "- Install ansible globally"
